@@ -7,6 +7,32 @@
     <list default="true" id="600b0bcf-6b54-42e7-aea5-061c301100aa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/movieplatform/categoryservice/CategoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/movieplatform/categoryservice/CategoryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/movieplatform/categoryservice/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/movieplatform/categoryservice/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/channel-service/src/main/java/com/movieplatform/channelservice/ChannelServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/channel-service/src/main/java/com/movieplatform/channelservice/ChannelServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/java/com/movieplatform/sample/configserver/ConfigserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/java/com/movieplatform/movieservice/configserver/ConfigserverApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/test/java/com/movieplatform/sample/configserver/ConfigserverApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/test/java/com/movieplatform/movieservice/configserver/ConfigserverApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/movieplatform/sample/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/movieplatform/movieservice/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/movieplatform/sample/eurekaserver/EurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/movieplatform/movieservice/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/movieplatform/sample/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/movieplatform/movieservice/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/test/java/com/movieplatform/sample/gateway/GatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/test/java/com/movieplatform/movieservice/gateway/GatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/MovieServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/MovieServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/constants/ExceptionMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/constants/ExceptionMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/constants/MovieStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/constants/MovieStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/dto/MovieCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/dto/MovieCreateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/dto/MovieCreateResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/dto/MovieCreateResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/dto/MovieDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/dto/MovieDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/dto/MovieUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/dto/MovieUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/exception/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/exception/ApiException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/exception/ApiExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/exception/ApiExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/exception/MovieNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/exception/MovieNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/mapper/MovieDtoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/mapper/MovieDtoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/repository/MovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/sample/service/impl/MovieServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/movieplatform/movieservice/service/impl/MovieServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +89,11 @@
   </component>
   <component name="RunManager" selected="Application.MovieServiceApplication">
     <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movieplatform.sample.configserver.ConfigserverApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.movieplatform.movieservice.configserver.ConfigserverApplication" />
       <module name="configserver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.movieplatform.sample.configserver.*" />
+          <option name="PATTERN" value="com.movieplatform.movieservice.configserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movieplatform.sample.eurekaserver.EurekaServerApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.movieplatform.movieservice.eurekaserver.EurekaServerApplication" />
       <module name="eureka-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.movieplatform.sample.eurekaserver.*" />
+          <option name="PATTERN" value="com.movieplatform.movieservice.eurekaserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,11 +115,11 @@
       </method>
     </configuration>
     <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movieplatform.sample.gateway.GatewayApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.movieplatform.movieservice.gateway.GatewayApplication" />
       <module name="gateway" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.movieplatform.sample.gateway.*" />
+          <option name="PATTERN" value="com.movieplatform.movieservice.gateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +128,11 @@
       </method>
     </configuration>
     <configuration name="MovieServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movieplatform.sample.MovieServiceApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.movieplatform.movieservice.MovieServiceApplication" />
       <module name="sample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.movieplatform.sample.*" />
+          <option name="PATTERN" value="com.movieplatform.movieservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

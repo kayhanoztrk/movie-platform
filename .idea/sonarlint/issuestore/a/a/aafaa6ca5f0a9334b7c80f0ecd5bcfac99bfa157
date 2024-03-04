@@ -1,0 +1,15 @@
+
+h
+java:S6204."RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+g
+java:S1612-"QReplace this lambda with method reference 'channelDtoMapper::convertEntityToDto'.(ÕÌâï
+h
+java:S6204>"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(œçÖß
+I
+java:S1611;"3Remove the parentheses around the "movie" parameter(À‰”Ì
+@
+java:S1068"*Remove this unused "logger" private field.(ÓŸ—¹
+{
+java:S1488<"`Immediately return this expression instead of assigning it to the temporary variable "movieDto".(š¤úÿÿÿÿ
+€
+java:S1488H"jImmediately return this expression instead of assigning it to the temporary variable "channelResponseDto".(÷äƒ›
