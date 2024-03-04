@@ -1,4 +1,4 @@
-package com.movieplatform.sample.exception;
+package com.movieplatform.channelservice.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,8 +15,9 @@ import java.time.ZonedDateTime;
  */
 @RestControllerAdvice
 public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
-    @ExceptionHandler(value = {MovieNotFoundException.class})
-    public ResponseEntity<Object> handleMovieNotFoundException(MovieNotFoundException e){
+
+    @ExceptionHandler(value = ChannelNotFoundException.class)
+    public ResponseEntity<Object> handleChannelNotFoundException(ChannelNotFoundException e){
         ApiException apiException = new ApiException(
                 e.getMessage(),
                 e,

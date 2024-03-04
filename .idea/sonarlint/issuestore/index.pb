@@ -39,3 +39,5 @@ G
 Ychannel-service/src/main/java/com/movieplatform/channelservice/constants/MovieStatus.java,8/0/8035281153fe6d504e885bbf8ec6b301fd8c086b
 “
 cchannel-service/src/main/java/com/movieplatform/channelservice/properties/MovieFeignProperties.java,9/6/969c6ade78fa1d5a75f7ecbc8ae8c18d345455fd
+Š
+Zchannel-service/src/main/java/com/movieplatform/channelservice/service/ChannelService.java,6/7/67b8e47da73b84cb7e7203e79fa19ef6164479b3

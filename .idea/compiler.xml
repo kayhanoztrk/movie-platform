@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="configserver" />
+        <module name="category-service" />
         <module name="sample" />
         <module name="eureka-server" />
         <module name="gateway" />
@@ -16,6 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="category-service" options="-parameters" />
       <module name="channel-service" options="-parameters" />
       <module name="configserver" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
