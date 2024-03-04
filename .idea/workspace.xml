@@ -87,26 +87,13 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MovieServiceApplication">
+  <component name="RunManager" selected="JUnit.MovieControllerTest">
     <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.movieplatform.movieservice.configserver.ConfigserverApplication" />
       <module name="configserver" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.movieplatform.movieservice.configserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movieplatform.movieservice.eurekaserver.EurekaServerApplication" />
-      <module name="eureka-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.movieplatform.movieservice.eurekaserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,6 +127,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MovieControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.circuitbreaker.sample.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.circuitbreaker.sample.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.circuitbreaker.sample.controller.MovieControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieDtoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.circuitbreaker.sample.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.circuitbreaker.sample.dto" />
+      <option name="MAIN_CLASS_NAME" value="com.circuitbreaker.sample.dto.MovieDtoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,10 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieControllerTest" />
+        <item itemvalue="JUnit.MovieDtoTest" />
         <item itemvalue="Application.MovieServiceApplication" />
         <item itemvalue="Application.ConfigserverApplication" />
         <item itemvalue="Application.GatewayApplication" />
-        <item itemvalue="Application.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
