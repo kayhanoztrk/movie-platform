@@ -33,3 +33,9 @@ G
 channel-service/pom.xml,c/4/c456d7c258e258361d5e56784f70630b6dabf5ed
 ç
 ]channel-service/src/main/java/com/movieplatform/channelservice/ChannelServiceApplication.java,4/3/430768f1e6d60cb11ab39e249058410364d75a25
+ç
+]channel-service/src/main/java/com/movieplatform/channelservice/client/MovieServiceClient.java,a/b/abd94a6f8c60807a2863e224a795e4fef8702df3
+â
+Ychannel-service/src/main/java/com/movieplatform/channelservice/constants/MovieStatus.java,8/0/8035281153fe6d504e885bbf8ec6b301fd8c086b
+ì
+cchannel-service/src/main/java/com/movieplatform/channelservice/properties/MovieFeignProperties.java,9/6/969c6ade78fa1d5a75f7ecbc8ae8c18d345455fd
