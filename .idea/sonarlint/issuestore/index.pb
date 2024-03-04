@@ -17,8 +17,6 @@ Emovie-service/src/main/java/com/movieplatform/sample/model/Movie.java,7/7/77ea
 fchannel-service/src/main/java/com/movieplatform/channelservice/exception/ChannelNotFoundException.java,1/b/1b7fb89bde4e05e20bf7eadd49eea0f648d83a69
 Å
 Qchannel-service/src/main/java/com/movieplatform/channelservice/model/Channel.java,3/c/3c0fffef38d2e40d25976e6ca38d6ac16a149fc3
-î
-dchannel-service/src/main/java/com/movieplatform/channelservice/dto/request/ChannelCreateRequest.java,5/4/54b32087d26496c13fd53de70f47872f7163d079
 ã
 [channel-service/src/main/java/com/movieplatform/channelservice/mapper/ChannelDtoMapper.java,9/6/96aefc9fe22d356c42056036d9c190112f7f4867
 v

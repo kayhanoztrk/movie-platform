@@ -1,14 +1,13 @@
 package com.movieplatform.channelservice.controller;
 
+import com.movieplatform.channelservice.dto.request.ChannelCreateRequest;
 import com.movieplatform.channelservice.dto.response.ChannelDto;
 import com.movieplatform.channelservice.dto.response.ChannelResponseDto;
 import com.movieplatform.channelservice.service.ChannelService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -38,6 +37,12 @@ public class ChannelController {
     public ResponseEntity<ChannelDto> findAllMoviesInChannel(Long channelId){
         ChannelDto channelDto = channelService.findAllMoviesInChannel(channelId);
         return ResponseEntity.ok(channelDto);
+    }
+
+    @PostMapping
+    public ResponseEntity<ChannelResponseDto> createChannel(@RequestBody ChannelCreateRequest channelCreateRequest){
+        ChannelResponseDto channelResponseDto = channelService.createChannel(channelCreateRequest);
+        return ResponseEntity.ok(channelResponseDto);
     }
 
 }

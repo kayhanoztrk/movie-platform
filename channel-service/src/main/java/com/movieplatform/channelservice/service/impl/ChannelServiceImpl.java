@@ -1,6 +1,7 @@
 package com.movieplatform.channelservice.service.impl;
 
 import com.movieplatform.channelservice.client.MovieServiceClient;
+import com.movieplatform.channelservice.constants.ExceptionMessages;
 import com.movieplatform.channelservice.dto.request.ChannelCreateRequest;
 import com.movieplatform.channelservice.dto.response.ChannelDto;
 import com.movieplatform.channelservice.dto.response.ChannelResponseDto;
@@ -47,7 +48,7 @@ public class ChannelServiceImpl implements ChannelService {
     @Override
     public ChannelDto findAllMoviesInChannel(Long channelId) {
         Channel channel = channelRepository.findById(channelId)
-                .orElseThrow(() -> new ChannelNotFoundException(channelId + " Channel not found!"));
+                .orElseThrow(() -> new ChannelNotFoundException(channelId + ExceptionMessages.CHANNEL_SERVICE_NOT_FOUND));
 
         ChannelDto channelDto = new ChannelDto();
         channelDto.setId(channel.getId());
@@ -66,7 +67,7 @@ public class ChannelServiceImpl implements ChannelService {
     @Override
     public ChannelResponseDto findById(Long id) {
         Channel channel = channelRepository.findById(id)
-                .orElseThrow(() -> new ChannelNotFoundException(id + " not found!"));
+                .orElseThrow(() -> new ChannelNotFoundException(id + ExceptionMessages.CHANNEL_SERVICE_NOT_FOUND));
         ChannelResponseDto channelResponseDto = channelDtoMapper.convertEntityToDto(channel);
         return channelResponseDto;
     }
