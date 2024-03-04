@@ -1,6 +1,7 @@
 package com.movieplatform.channelservice.controller;
 
 import com.movieplatform.channelservice.dto.request.ChannelCreateRequest;
+import com.movieplatform.channelservice.dto.request.ChannelUpdateRequest;
 import com.movieplatform.channelservice.dto.response.ChannelDto;
 import com.movieplatform.channelservice.dto.response.ChannelResponseDto;
 import com.movieplatform.channelservice.service.ChannelService;
@@ -42,6 +43,13 @@ public class ChannelController {
     @PostMapping
     public ResponseEntity<ChannelResponseDto> createChannel(@RequestBody ChannelCreateRequest channelCreateRequest){
         ChannelResponseDto channelResponseDto = channelService.createChannel(channelCreateRequest);
+        return ResponseEntity.ok(channelResponseDto);
+    }
+
+    @PutMapping("/id/{id}")
+    public ResponseEntity<ChannelResponseDto> updateChannel(@PathVariable Long id,
+                                                            @RequestBody ChannelUpdateRequest channelUpdateRequest){
+        ChannelResponseDto channelResponseDto = channelService.updateChannel(id, channelUpdateRequest);
         return ResponseEntity.ok(channelResponseDto);
     }
 

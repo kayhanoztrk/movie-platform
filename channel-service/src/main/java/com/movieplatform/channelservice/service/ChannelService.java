@@ -1,6 +1,7 @@
 package com.movieplatform.channelservice.service;
 
 import com.movieplatform.channelservice.dto.request.ChannelCreateRequest;
+import com.movieplatform.channelservice.dto.request.ChannelUpdateRequest;
 import com.movieplatform.channelservice.dto.response.ChannelDto;
 import com.movieplatform.channelservice.dto.response.ChannelResponseDto;
 
@@ -16,5 +17,5 @@ public interface ChannelService {
     ChannelDto findAllMoviesInChannel(Long channelId);
     ChannelResponseDto findById(Long id);
     ChannelResponseDto createChannel(ChannelCreateRequest channelCreateRequest);
-
+    ChannelResponseDto updateChannel(Long id, ChannelUpdateRequest channelUpdateRequest);
 }

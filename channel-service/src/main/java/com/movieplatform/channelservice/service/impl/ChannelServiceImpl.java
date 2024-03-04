@@ -3,6 +3,7 @@ package com.movieplatform.channelservice.service.impl;
 import com.movieplatform.channelservice.client.MovieServiceClient;
 import com.movieplatform.channelservice.constants.ExceptionMessages;
 import com.movieplatform.channelservice.dto.request.ChannelCreateRequest;
+import com.movieplatform.channelservice.dto.request.ChannelUpdateRequest;
 import com.movieplatform.channelservice.dto.response.ChannelDto;
 import com.movieplatform.channelservice.dto.response.ChannelResponseDto;
 import com.movieplatform.channelservice.dto.response.MovieDto;
@@ -76,6 +77,17 @@ public class ChannelServiceImpl implements ChannelService {
     public ChannelResponseDto createChannel(ChannelCreateRequest channelCreateRequest) {
         Channel channel = channelDtoMapper.convertCreateRequestToEntity(channelCreateRequest);
         Channel savedChannel = channelRepository.save(channel);
+        return channelDtoMapper.convertEntityToDto(savedChannel);
+    }
+
+    @Override
+    public ChannelResponseDto updateChannel(Long id, ChannelUpdateRequest channelUpdateRequest) {
+        Channel toChannel = channelRepository.findById(id)
+                .orElseThrow(() -> new ChannelNotFoundException(id + ExceptionMessages.CHANNEL_SERVICE_NOT_FOUND));
+        toChannel.setName(channelUpdateRequest.getName());
+        toChannel.setMovieList(channelUpdateRequest.getMovieList());
+
+        Channel savedChannel = channelRepository.save(toChannel);
         return channelDtoMapper.convertEntityToDto(savedChannel);
     }
 }
