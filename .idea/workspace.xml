@@ -42,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -87,22 +87,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MovieServiceTest">
-    <configuration name="MovieControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.circuitbreaker.sample.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.circuitbreaker.sample.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.circuitbreaker.sample.controller.MovieControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MovieTest">
     <configuration name="MovieControllerTest.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sample" />
       <extension name="coverage">
@@ -115,21 +100,6 @@
       <option name="MAIN_CLASS_NAME" value="com.circuitbreaker.sample.controller.MovieControllerTest" />
       <option name="METHOD_NAME" value="testFindById" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovieDtoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.circuitbreaker.sample.dto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.circuitbreaker.sample.dto" />
-      <option name="MAIN_CLASS_NAME" value="com.circuitbreaker.sample.dto.MovieDtoTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,6 +135,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MovieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.circuitbreaker.sample.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.circuitbreaker.sample.model" />
+      <option name="MAIN_CLASS_NAME" value="com.circuitbreaker.sample.model.MovieTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieUpdateRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.circuitbreaker.sample.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.circuitbreaker.sample.dto" />
+      <option name="MAIN_CLASS_NAME" value="com.circuitbreaker.sample.dto.MovieUpdateRequestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieTest" />
+        <item itemvalue="JUnit.MovieUpdateRequestTest" />
         <item itemvalue="JUnit.MovieServiceTest" />
         <item itemvalue="JUnit.MovieServiceTest.testFindById" />
         <item itemvalue="JUnit.MovieControllerTest.testFindById" />
-        <item itemvalue="JUnit.MovieControllerTest" />
-        <item itemvalue="JUnit.MovieDtoTest" />
       </list>
     </recent_temporary>
   </component>

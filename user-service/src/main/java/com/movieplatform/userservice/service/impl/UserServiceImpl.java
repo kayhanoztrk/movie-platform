@@ -1,6 +1,7 @@
 package com.movieplatform.userservice.service.impl;
 
 import com.movieplatform.userservice.constants.ExceptionMessages;
+import com.movieplatform.userservice.constants.ExceptionParameter;
 import com.movieplatform.userservice.dto.UserCreateRequest;
 import com.movieplatform.userservice.dto.UserDto;
 import com.movieplatform.userservice.exception.UserNotFoundException;
@@ -42,7 +43,7 @@ public class UserServiceImpl implements UserService {
     public UserDto findById(Long id) {
         UserDto userDto = userRepository.findById(id)
                 .map(user -> userDtoMapper.convertEntityToDto(user))
-                .orElseThrow(() -> new UserNotFoundException(id + ExceptionMessages.USER_NOT_FOUND));
+                .orElseThrow(() -> new UserNotFoundException(id + ExceptionParameter.USER_SERVICE_NOT_FOUND.getKey()));
         return userDto;
     }
 
