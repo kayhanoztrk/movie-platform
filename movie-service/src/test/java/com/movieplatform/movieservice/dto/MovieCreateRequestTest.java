@@ -1,13 +1,11 @@
-package com.circuitbreaker.sample.dto;
+package com.movieplatform.movieservice.dto;
 
 import com.movieplatform.movieservice.constants.MovieStatus;
-import com.movieplatform.movieservice.dto.MovieCreateRequest;
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.time.Instant;
-import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
@@ -32,7 +30,6 @@ public class MovieCreateRequestTest {
 
     @Test
     public void testGetter() {
-        Assert.assertNotNull(movieCreateRequest);
         Assert.assertNotNull(movieCreateRequest.getName());
         Assert.assertNotNull(movieCreateRequest.getDescription());
         Assert.assertNotNull(movieCreateRequest.getReleaseDate());

@@ -1,4 +1,4 @@
-package com.circuitbreaker.sample.controller;
+package com.movieplatform.movieservice.controller;
 
 import com.movieplatform.movieservice.constants.MovieStatus;
 import com.movieplatform.movieservice.controller.MovieController;

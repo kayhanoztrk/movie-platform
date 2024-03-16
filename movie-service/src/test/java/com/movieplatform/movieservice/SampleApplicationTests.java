@@ -1,4 +1,4 @@
-package com.circuitbreaker.sample;
+package com.movieplatform.movieservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

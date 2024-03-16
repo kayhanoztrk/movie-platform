@@ -1,4 +1,4 @@
-package com.circuitbreaker.sample.model;
+package com.movieplatform.movieservice.model;
 
 import com.movieplatform.movieservice.constants.MovieStatus;
 import com.movieplatform.movieservice.model.Movie;

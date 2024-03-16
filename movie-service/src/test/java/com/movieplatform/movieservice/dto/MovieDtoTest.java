@@ -1,7 +1,6 @@
-package com.circuitbreaker.sample.dto;
+package com.movieplatform.movieservice.dto;
 
 import com.movieplatform.movieservice.constants.MovieStatus;
-import com.movieplatform.movieservice.dto.MovieDto;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

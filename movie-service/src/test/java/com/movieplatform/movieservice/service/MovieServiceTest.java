@@ -1,4 +1,4 @@
-package com.circuitbreaker.sample.service;
+package com.movieplatform.movieservice.service;
 
 import com.movieplatform.movieservice.constants.MovieStatus;
 import com.movieplatform.movieservice.dto.MovieDto;
